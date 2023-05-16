@@ -1,3 +1,3 @@
-<div>
-  <h2><script>alert("xss")</script></h2>
-</div>
+alert("Cross Domain Script Include");
+alert(document.cookie);
+alert(document.domain);
